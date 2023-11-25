@@ -1,0 +1,15 @@
+{
+  "item.normality.crystallized_honey": "Crystallized Honey",
+  "item.normality.condensed_amethyst": "Condensed Amethyst",
+  "item.normality.ruby": "Ruby",
+  "item.normality.web_lead": "Web Lead",
+
+  "block.normality.honeycomb_bricks": "Honeycomb Bricks",
+  "block.normality.chiseled_honeycomb_bricks": "Chiseled Honeycomb Bricks",
+  "block.normality.cracked_honeycomb_bricks": "Cracked Honeycomb Bricks",
+  "block.normality.ruby_ore": "Ruby Ore",
+  "block.normality.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.normality.ruby_block": "Block of Ruby",
+
+  "itemgroup.honeycomb_bricks_group": "Normality"
+}
