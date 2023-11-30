@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:amethyst_block"
+    },
+    "S": {
+      "item": "normality:condensed_amethyst"
+    }
+  },
+  "pattern": [
+    "SC",
+    "CS"
+  ],
+  "result": {
+    "count": 2,
+    "item": "normality:polished_amethyst_block"
+  },
+  "show_notification": true
+}

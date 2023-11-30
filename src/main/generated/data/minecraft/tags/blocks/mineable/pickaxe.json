@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "normality:ruby_ore",
+    "normality:ruby_block",
+    "normality:deepslate_ruby_ore",
+    "normality:amethyst_bricks",
+    "normality:polished_amethyst_block",
+    "normality:cracked_amethyst_bricks",
+    "normality:honeycomb_bricks",
+    "normality:chiseled_honeycomb_bricks",
+    "normality:cracked_honeycomb_bricks",
+    "normality:crystallized_honey_block"
+  ]
+}

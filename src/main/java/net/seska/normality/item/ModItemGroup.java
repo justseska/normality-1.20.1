@@ -17,15 +17,35 @@ public class ModItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.honeycomb_bricks_group"))
                     .icon(() -> new ItemStack(ModItems.CRYSTALLIZED_HONEY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CRYSTALLIZED_HONEY);
+                        entries.add(ModBlocks.CRYSTALLIZED_HONEY_BLOCK);
                         entries.add(ModBlocks.HONEYCOMB_BRICKS);
                         entries.add(ModBlocks.CRACKED_HONEYCOMB_BRICKS);
                         entries.add(ModBlocks.CHISELED_HONEYCOMB_BRICKS);
                         entries.add(ModItems.CONDENSED_AMETHYST);
+                        entries.add(ModBlocks.POLISHED_AMETHYST_BLOCK);
+                        entries.add(ModBlocks.AMETHYST_BRICKS);
+                        entries.add(ModBlocks.CRACKED_AMETHYST_BRICKS);
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModItems.WEB_LEAD);
+                        entries.add(ModItems.BLACK_CANDY_CANE);
+                        entries.add(ModItems.BLUE_CANDY_CANE);
+                        entries.add(ModItems.BROWN_CANDY_CANE);
+                        entries.add(ModItems.CYAN_CANDY_CANE);
+                        entries.add(ModItems.GRAY_CANDY_CANE);
+                        entries.add(ModItems.GREEN_CANDY_CANE);
+                        entries.add(ModItems.LIGHT_GRAY_CANDY_CANE);
+                        entries.add(ModItems.LIGHT_BLUE_CANDY_CANE);
+                        entries.add(ModItems.LIME_CANDY_CANE);
+                        entries.add(ModItems.MAGENTA_CANDY_CANE);
+                        entries.add(ModItems.ORANGE_CANDY_CANE);
+                        entries.add(ModItems.PINK_CANDY_CANE);
+                        entries.add(ModItems.PURPLE_CANDY_CANE);
+                        entries.add(ModItems.RED_CANDY_CANE);
+                        entries.add(ModItems.WHITE_CANDY_CANE);
+                        entries.add(ModItems.YELLOW_CANDY_CANE);
                     }).build());
     public static void registerItemGroups() {
 

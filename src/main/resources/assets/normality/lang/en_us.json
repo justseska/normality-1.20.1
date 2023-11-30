@@ -3,6 +3,22 @@
   "item.normality.condensed_amethyst": "Condensed Amethyst",
   "item.normality.ruby": "Ruby",
   "item.normality.web_lead": "Web Lead",
+  "item.normality.black_candy_cane": "Black Candy Cane",
+  "item.normality.blue_candy_cane": "Blue Candy Cane",
+  "item.normality.brown_candy_cane": "Brown Candy Cane",
+  "item.normality.cyan_candy_cane": "Cyan Candy Cane",
+  "item.normality.gray_candy_cane": "Gray Candy Cane",
+  "item.normality.green_candy_cane": "Green Candy Cane",
+  "item.normality.light_gray_candy_cane": "Light Gray Candy Cane",
+  "item.normality.light_blue_candy_cane": "Light Blue Candy Cane",
+  "item.normality.lime_candy_cane": "Lime Candy Cane",
+  "item.normality.magenta_candy_cane": "Magenta Candy Cane",
+  "item.normality.orange_candy_cane": "Orange Candy Cane",
+  "item.normality.pink_candy_cane": "Pink Candy Cane",
+  "item.normality.purple_candy_cane": "Purple Candy Cane",
+  "item.normality.red_candy_cane": "Red Candy Cane",
+  "item.normality.white_candy_cane": "White Candy Cane",
+  "item.normality.yellow_candy_cane": "Yellow Candy Cane",
 
   "block.normality.honeycomb_bricks": "Honeycomb Bricks",
   "block.normality.chiseled_honeycomb_bricks": "Chiseled Honeycomb Bricks",
@@ -10,6 +26,9 @@
   "block.normality.ruby_ore": "Ruby Ore",
   "block.normality.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.normality.ruby_block": "Block of Ruby",
+  "block.normality.polished_amethyst_block": "Polished Amethyst Block",
+  "block.normality.amethyst_bricks": "Amethyst Bricks",
+  "block.normality.cracked_amethyst_bricks": "Cracked Amethyst Bricks",
 
   "itemgroup.honeycomb_bricks_group": "Normality"
 }

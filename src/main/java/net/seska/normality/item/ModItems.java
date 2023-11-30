@@ -34,18 +34,43 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item WEB_LEAD = registerItem("web_lead",
             new LeadItem(new FabricItemSettings()));
+    public static final Item BLACK_CANDY_CANE = registerItem("black_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item BLUE_CANDY_CANE = registerItem("blue_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item BROWN_CANDY_CANE = registerItem("brown_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item CYAN_CANDY_CANE = registerItem("cyan_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item GRAY_CANDY_CANE = registerItem("gray_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item GREEN_CANDY_CANE = registerItem("green_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item LIGHT_GRAY_CANDY_CANE = registerItem("light_gray_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item LIGHT_BLUE_CANDY_CANE = registerItem("light_blue_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item LIME_CANDY_CANE = registerItem("lime_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item MAGENTA_CANDY_CANE = registerItem("magenta_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item ORANGE_CANDY_CANE = registerItem("orange_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item PINK_CANDY_CANE = registerItem("pink_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item PURPLE_CANDY_CANE = registerItem("purple_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item RED_CANDY_CANE = registerItem("red_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item WHITE_CANDY_CANE = registerItem("white_candy_cane",
+            new Item(new FabricItemSettings()));
+    public static final Item YELLOW_CANDY_CANE = registerItem("yellow_candy_cane",
+            new Item(new FabricItemSettings()));
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(CRYSTALLIZED_HONEY);
         entries.add(CONDENSED_AMETHYST);
         entries.add(RUBY);
         entries.add(WEB_LEAD);
-
-        entries.add(ModBlocks.HONEYCOMB_BRICKS);
-        entries.add(ModBlocks.CHISELED_HONEYCOMB_BRICKS);
-        entries.add(ModBlocks.CRACKED_HONEYCOMB_BRICKS);
-        entries.add(ModBlocks.RUBY_ORE);
-        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
-        entries.add(ModBlocks.RUBY_BLOCK);
     }
     //WEAPONS
     //TOOLS
@@ -53,7 +78,6 @@ public class ModItems {
     //WOODS
     //FOODS
     //MISC BLOCKS
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(NormalityMod.MOD_ID, name), item);
     }
