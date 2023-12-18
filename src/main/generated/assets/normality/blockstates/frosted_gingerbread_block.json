@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "normality:block/frosted_gingerbread_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "normality:block/frosted_gingerbread_block"
+    },
+    "axis=z": {
+      "model": "normality:block/frosted_gingerbread_block_horizontal",
+      "x": 90
+    }
+  }
+}

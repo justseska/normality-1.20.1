@@ -4,6 +4,21 @@
     "normality:ruby_ore",
     "normality:ruby_block",
     "normality:deepslate_ruby_ore",
-    "normality:amethyst_bricks"
+    "normality:amethyst_bricks",
+    "normality:wrought_iron_block",
+    "normality:wrought_iron_bars",
+    "normality:wrought_iron_door",
+    "normality:wrought_iron_trapdoor",
+    "normality:wrought_iron_stairs",
+    "normality:wrought_iron_slab",
+    "normality:wrought_iron_button",
+    "normality:wrought_iron_pressure_plate",
+    "normality:wrought_iron_wall",
+    "normality:smooth_wrought_iron_block",
+    "normality:smooth_wrought_iron_stairs",
+    "normality:smooth_wrought_iron_slab",
+    "normality:smooth_wrought_iron_wall",
+    "normality:smooth_wrought_iron_button",
+    "normality:smooth_wrought_iron_pressure_plate"
   ]
 }

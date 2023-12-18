@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "normality:block/green_candy_cane_block",
+    "side": "normality:block/green_candy_cane_block",
+    "top": "normality:block/green_candy_cane_block"
+  }
+}

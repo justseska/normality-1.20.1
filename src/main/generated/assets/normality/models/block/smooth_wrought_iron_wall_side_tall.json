@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "normality:block/smooth_wrought_iron_block"
+  }
+}

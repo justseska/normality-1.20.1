@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "normality:block/light_blue_candy_cane_slab"
+    },
+    "type=double": {
+      "model": "normality:block/light_blue_candy_cane_block"
+    },
+    "type=top": {
+      "model": "normality:block/light_blue_candy_cane_slab_top"
+    }
+  }
+}

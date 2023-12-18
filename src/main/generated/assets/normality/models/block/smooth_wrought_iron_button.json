@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "normality:block/smooth_wrought_iron_block"
+  }
+}

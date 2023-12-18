@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:wrought_iron_trapdoor"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wrought_iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "normality:wrought_iron_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wrought_iron_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:wrought_iron_trapdoor"
+    ]
+  },
+  "sends_telemetry_event": false
+}

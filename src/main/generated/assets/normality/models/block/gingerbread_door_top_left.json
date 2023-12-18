@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "normality:block/gingerbread_door_bottom",
+    "top": "normality:block/gingerbread_door_top"
+  }
+}

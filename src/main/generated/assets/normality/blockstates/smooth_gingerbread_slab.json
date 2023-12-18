@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "normality:block/smooth_gingerbread_slab"
+    },
+    "type=double": {
+      "model": "normality:block/smooth_gingerbread_block"
+    },
+    "type=top": {
+      "model": "normality:block/smooth_gingerbread_slab_top"
+    }
+  }
+}

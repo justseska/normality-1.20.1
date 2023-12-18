@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "normality:warped_boat"
+    }
+  ],
+  "result": {
+    "item": "normality:warped_chest_boat"
+  }
+}

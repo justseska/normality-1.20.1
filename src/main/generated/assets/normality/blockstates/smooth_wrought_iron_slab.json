@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "normality:block/smooth_wrought_iron_slab"
+    },
+    "type=double": {
+      "model": "normality:block/smooth_wrought_iron_block"
+    },
+    "type=top": {
+      "model": "normality:block/smooth_wrought_iron_slab_top"
+    }
+  }
+}

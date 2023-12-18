@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "normality:holly_planks",
+    "normality:holly_slab",
+    "normality:holly_stairs",
+    "normality:holly_pressure_plate",
+    "normality:holly_button",
+    "normality:holly_fence",
+    "normality:holly_fence_gate",
+    "normality:holly_door",
+    "normality:holly_trapdoor",
+    "normality:gingerbread_block",
+    "normality:gingerbread_door",
+    "normality:gingerbread_stairs",
+    "normality:gingerbread_trapdoor",
+    "normality:gingerbread_slab",
+    "normality:frosted_gingerbread_block",
+    "normality:frosted_smooth_gingerbread_block",
+    "normality:smooth_gingerbread_block",
+    "normality:smooth_gingerbread_stairs",
+    "normality:smooth_gingerbread_slab"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "normality:holly_planks"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "SCS"
+  ],
+  "result": {
+    "count": 3,
+    "item": "normality:holly_fence"
+  },
+  "show_notification": true
+}

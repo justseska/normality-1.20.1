@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "normality:block/holly_slab"
+    },
+    "type=double": {
+      "model": "normality:block/holly_planks"
+    },
+    "type=top": {
+      "model": "normality:block/holly_slab_top"
+    }
+  }
+}

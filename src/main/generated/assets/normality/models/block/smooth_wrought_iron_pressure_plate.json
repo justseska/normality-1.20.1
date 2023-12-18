@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "normality:block/smooth_wrought_iron_block"
+  }
+}

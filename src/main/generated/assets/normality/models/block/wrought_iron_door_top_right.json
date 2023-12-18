@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "normality:block/wrought_iron_door_bottom",
+    "top": "normality:block/wrought_iron_door_top"
+  }
+}

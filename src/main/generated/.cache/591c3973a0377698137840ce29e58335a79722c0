@@ -1,3 +1,10 @@
-// 1.20.1	2023-11-29T02:18:23.486134	Normality/Tags for minecraft:block
-7ccc7919be863f8d8c076a7775b5b7475cbb0435 data\minecraft\tags\blocks\needs_iron_tool.json
-658908a231ecdfebd5cb0fb75c3b5ae795f2c9f6 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.1	2023-12-17T13:15:24.7030019	Normality/Tags for minecraft:block
+57d560e15cea71ec563f875873a6450c7432a08a data\minecraft\tags\blocks\needs_iron_tool.json
+8bcbccff4c2f67836c37f46d610e15300eb7fefb data\minecraft\tags\blocks\fence_gates.json
+ad768749e1f3fb47ab4926752cafde11749089b2 data\minecraft\tags\blocks\walls.json
+af1a6b415ed703be9cd16a24c19ccf5ce1b35414 data\minecraft\tags\blocks\planks.json
+a46e36ae4f3ced5fc091045e0b39d33ea7444ac0 data\minecraft\tags\blocks\wooden_fences.json
+f533f165ae446db579b71c165ac1d118fb6a86d9 data\fabric\tags\blocks\needs_tool_level_3.json
+a5d362cc38d739b35d66d34d379bda3aeb381ae3 data\minecraft\tags\blocks\logs_that_burn.json
+0a01d8221619e295e9eb2edccddcf545a51bfdf6 data\minecraft\tags\blocks\mineable\axe.json
+44782abf8ce9d294ff9f2fb05d3fdad6ecc4a902 data\minecraft\tags\blocks\mineable\pickaxe.json

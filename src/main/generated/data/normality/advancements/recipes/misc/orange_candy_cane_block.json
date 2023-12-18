@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orange_candy_cane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "normality:orange_candy_cane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:orange_candy_cane_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_orange_candy_cane",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:orange_candy_cane_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

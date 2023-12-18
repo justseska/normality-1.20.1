@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": {
+      "item": "minecraft:golden_leggings"
+    },
+    "S": {
+      "item": "normality:ruby_block"
+    }
+  },
+  "pattern": [
+    "S",
+    "C"
+  ],
+  "result": {
+    "item": "normality:ruby_leggings"
+  },
+  "show_notification": true
+}

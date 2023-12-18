@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "normality:ginger_root"
+    },
+    "M": {
+      "item": "normality:molasses_bottle"
+    },
+    "S": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "pattern": [
+    " M ",
+    "SGS",
+    " M "
+  ],
+  "result": {
+    "count": 12,
+    "item": "normality:gingerbread_cookie"
+  },
+  "show_notification": true
+}

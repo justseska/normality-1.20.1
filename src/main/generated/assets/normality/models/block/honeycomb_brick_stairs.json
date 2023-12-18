@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "normality:block/honeycomb_bricks",
+    "side": "normality:block/honeycomb_bricks",
+    "top": "normality:block/honeycomb_bricks"
+  }
+}

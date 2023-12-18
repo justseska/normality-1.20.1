@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "normality:holly_planks"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SSS",
+    " C "
+  ],
+  "result": {
+    "count": 3,
+    "item": "normality:holly_wood_sign"
+  },
+  "show_notification": true
+}

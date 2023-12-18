@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "normality:holly_planks"
+    }
+  ],
+  "result": {
+    "item": "normality:holly_button"
+  }
+}

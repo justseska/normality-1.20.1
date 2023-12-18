@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "normality:block/cyan_candy_cane_slab"
+    },
+    "type=double": {
+      "model": "normality:block/cyan_candy_cane_block"
+    },
+    "type=top": {
+      "model": "normality:block/cyan_candy_cane_slab_top"
+    }
+  }
+}

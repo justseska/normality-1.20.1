@@ -3,8 +3,11 @@ package net.seska.normality;
 import net.fabricmc.api.ModInitializer;
 
 import net.seska.normality.block.ModBlocks;
+import net.seska.normality.entity.ModBoats;
 import net.seska.normality.item.ModItemGroup;
 import net.seska.normality.item.ModItems;
+import net.seska.normality.util.ModRegistries;
+import net.seska.normality.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +21,11 @@ public class NormalityMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModWorldGeneration.generateModWorldGeneration();
+		ModBoats.registerBoats();
+		ModRegistries.registerModStuffs();
+
+
 	}
 }

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "normality:amethyst_brick_wall",
+    "normality:honeycomb_brick_wall",
+    "normality:wrought_iron_wall",
+    "normality:smooth_wrought_iron_wall",
+    "normality:calcite_brick_wall",
+    "normality:diorite_brick_wall",
+    "normality:andesite_brick_wall",
+    "normality:granite_brick_wall",
+    "normality:polished_calcite_wall"
+  ]
+}

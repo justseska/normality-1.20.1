@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "normality:wrought_iron_block"
+    }
+  ],
+  "result": {
+    "item": "normality:wrought_iron_button"
+  }
+}

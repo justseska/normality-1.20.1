@@ -1,1 +1,10 @@
-// 1.20.1	2023-11-29T02:18:23.486134	Normality/Tags for minecraft:item
+// 1.20.1	2023-12-17T13:15:24.7040015	Normality/Tags for minecraft:item
+7bfcddcd713362ba13a95b2f4a78fdf45454c9c5 data\minecraft\tags\items\pickaxes.json
+11553d8b3e55a4a200880ef814596716ca51e02f data\minecraft\tags\items\trimmable_armor.json
+757fd5c83155f0947f9cec4612913c6f4fee51fb data\minecraft\tags\items\planks.json
+308e20f904fd1133db8d8d3fc76b3f85742d73cd data\minecraft\tags\items\hoes.json
+a5d362cc38d739b35d66d34d379bda3aeb381ae3 data\minecraft\tags\items\logs.json
+dee0318a79be6cd90966996828a563f77f433a19 data\minecraft\tags\items\swords.json
+d837bb269106cdb1a4702289641de1c15750b8df data\minecraft\tags\items\axes.json
+19d6696a0ac5787a566586b98ae6d2ac43fef1c4 data\minecraft\tags\items\logs_that_burn.json
+6f3d192882f5179b87b41b70fb0db3bf10c73dc1 data\minecraft\tags\items\shovels.json

@@ -37,5 +37,8 @@ public class ModFoodComponents {
             .statusEffect(new StatusEffectInstance(StatusEffects.SPEED), 0.50f).build();
     public static final FoodComponent YELLOW_CANDY_CANE = new FoodComponent.Builder().hunger(4).saturationModifier(0.1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.SPEED), 0.50f).build();
+    public static final FoodComponent GINGERBREAD_COOKIE = new FoodComponent.Builder().hunger(2).saturationModifier(0.1f).build();
+    public static final FoodComponent FROSTED_GINGERBREAD_COOKIE = new FoodComponent.Builder().hunger(4).saturationModifier(0.5f).build();
+    public static final FoodComponent GINGER_ROOT = new FoodComponent.Builder().hunger(1).saturationModifier(0.3f).build();
 
 }

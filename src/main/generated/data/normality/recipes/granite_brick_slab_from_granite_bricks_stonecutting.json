@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "normality:granite_bricks"
+  },
+  "result": "normality:granite_brick_slab"
+}

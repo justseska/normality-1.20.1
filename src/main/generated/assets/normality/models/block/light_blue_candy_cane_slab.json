@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "normality:block/light_blue_candy_cane_block",
+    "side": "normality:block/light_blue_candy_cane_block",
+    "top": "normality:block/light_blue_candy_cane_block"
+  }
+}

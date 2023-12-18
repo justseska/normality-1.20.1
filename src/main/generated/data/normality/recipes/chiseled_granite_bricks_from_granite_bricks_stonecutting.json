@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "normality:granite_bricks"
+  },
+  "result": "normality:chiseled_granite_bricks"
+}

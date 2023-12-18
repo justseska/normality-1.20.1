@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "normality:block/cyan_candy_cane_block",
+    "side": "normality:block/cyan_candy_cane_block",
+    "top": "normality:block/cyan_candy_cane_block"
+  }
+}

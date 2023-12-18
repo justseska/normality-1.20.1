@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "normality:polished_calcite"
+  },
+  "result": "normality:calcite_bricks"
+}

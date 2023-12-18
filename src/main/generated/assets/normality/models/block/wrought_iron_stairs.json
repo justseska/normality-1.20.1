@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "normality:block/wrought_iron_block",
+    "side": "normality:block/wrought_iron_block",
+    "top": "normality:block/wrought_iron_block"
+  }
+}
