@@ -28,6 +28,11 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> HOLLY_KEY = registryKey("holly");
     public static final RegistryKey<ConfiguredFeature<?, ?>> RUBY_ORE_KEY = registryKey("ruby_ore");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> RED_PLUMERIA_KEY = registryKey("red_plumeria");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> BLUE_PLUMERIA_KEY = registryKey("blue_plumeria");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> WHITE_PLUMERIA_KEY = registryKey("white_plumeria");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> YELLOW_PLUMERIA_KEY = registryKey("yellow_plumeria");
+
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
@@ -41,12 +46,22 @@ public class ModConfiguredFeatures {
                 BlockStateProvider.of(ModBlocks.HOLLY_LOG),
                 new StraightTrunkPlacer(5 , 2, 1),
                 BlockStateProvider.of(ModBlocks.HOLLY_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
-                new TwoLayersFeatureSize(2, 0, 2)).build());
+                new BlobFoliagePlacer(ConstantIntProvider.create(3), ConstantIntProvider.create(3), 5),
+                new TwoLayersFeatureSize(1, 0, 1)).build());
+
 
         register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 5));
 
+        register(context, RED_PLUMERIA_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.RED_PLUMERIA)))));
+        register(context, BLUE_PLUMERIA_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.BLUE_PLUMERIA)))));
+        register(context, YELLOW_PLUMERIA_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.YELLOW_PLUMERIA)))));
+        register(context, WHITE_PLUMERIA_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.WHITE_PLUMERIA)))));
     }
+
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name) {
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(NormalityMod.MOD_ID, name));

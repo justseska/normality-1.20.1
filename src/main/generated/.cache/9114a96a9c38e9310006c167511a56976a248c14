@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-17T13:15:24.6984908	Normality/Recipes
+// 1.20.1	2023-12-18T15:39:45.1256811	Normality/Recipes
 cabc6ed5968b9e886f1bf5e4d7e9f8879c3f4627 data\normality\recipes\light_gray_candy_cane_block.json
 ede3a07491e18a8362c536854fd6a005b14fb822 data\normality\recipes\polished_calcite_stairs_from_polished_calcite_stonecutting.json
 ac4e1f3242a4bdb83b9cd057db0b0457048cfbc4 data\normality\recipes\ruby_pickaxe.json
@@ -362,8 +362,8 @@ de7c27dedeb337e7d0f54db5543f5da99fee66fc data\normality\advancements\recipes\foo
 2466318cd12f508819023c1401468c402a427212 data\normality\recipes\orange_candy_cane_slab.json
 61ff27678488ef8254ae07e72da0fa6b83642c4f data\normality\recipes\light_blue_candy_cane_block.json
 9a3203ff7169d892fc9e76d738969ae2c210ddcf data\normality\advancements\recipes\building_blocks\polished_calcite_stairs.json
-5fec66fa056c2840e91d610872cc6a97662282a2 data\normality\advancements\recipes\misc\red_candy_cane.json
 27e152a2fd2660af57048d61ca1e9f3554330601 data\normality\recipes\purple_candy_cane_stairs.json
+5fec66fa056c2840e91d610872cc6a97662282a2 data\normality\advancements\recipes\misc\red_candy_cane.json
 2d283251eaa829fded51582c98233149ce01a3c2 data\normality\recipes\polished_calcite_slab.json
 c0f5b870e9ba720c6e7e4ebd1f9ddb86f97ad89e data\normality\recipes\andesite_brick_stairs_from_andesite_bricks_stonecutting.json
 96dd878bcbc5fedda155ae7ac19151b83be43641 data\normality\recipes\gray_candy_cane_slab.json

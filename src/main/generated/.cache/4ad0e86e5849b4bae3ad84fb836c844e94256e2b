@@ -1,3 +1,13 @@
-// 1.20.1	2023-12-17T13:15:24.7069999	Normality/World Gen
+// 1.20.1	2023-12-18T15:39:45.1346815	Normality/World Gen
+0d28808fb3b8cc3bd5097114fc6b26b38fdad534 data\normality\worldgen\configured_feature\white_plumeria.json
 1d5dd25fa8e35fec5cb313ae83fa4ff0ba4cee44 data\normality\worldgen\placed_feature\ruby_ore_placed.json
+f7e2f7830defd738ff0607288bf2377a59e10da9 data\normality\worldgen\configured_feature\ruby_ore.json
 b860f530dcfb5acd8c6bade29eb97ac1aca31b57 data\normality\worldgen\placed_feature\holly_place.json
+fe68632827e7054d387a0c0079c2cafae92ee7ff data\normality\worldgen\configured_feature\blue_plumeria.json
+073876670be4e2d9599d645b0d3b2ead0e2e9497 data\normality\worldgen\configured_feature\yellow_plumeria.json
+eceae83371dd8718639204d39be9a3bba7931770 data\normality\worldgen\placed_feature\yellow_plumeria_placed.json
+7d7db6177d8bdca0f8cc232cae9b93c431dc11b3 data\normality\worldgen\placed_feature\white_plumeria_placed.json
+c4feba98b4151f613d49a0b80ff24eef49b10775 data\normality\worldgen\placed_feature\blue_plumeria_placed.json
+cf43c2306ccc79d061d43b3fc8ba3c571a1fd5a3 data\normality\worldgen\configured_feature\red_plumeria.json
+3aab006ce19791c76e79e5dfd2ba0261f8f84684 data\normality\worldgen\placed_feature\red_plumeria_placed.json
+d25a093927a89b572e96f07c6be7d40afc5ef1c0 data\normality\worldgen\configured_feature\holly.json
