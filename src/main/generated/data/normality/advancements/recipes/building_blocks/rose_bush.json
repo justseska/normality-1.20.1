@@ -4,10 +4,7 @@
     "has_rose": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:rose"
-            ]
+          {"items": [  "normality:rose"]
           }
         ]
       },

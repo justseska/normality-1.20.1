@@ -4,10 +4,7 @@
     "has_gingerbread_cookie": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:gingerbread_cookie"
-            ]
+          {"items": [  "normality:gingerbread_cookie"]
           }
         ]
       },

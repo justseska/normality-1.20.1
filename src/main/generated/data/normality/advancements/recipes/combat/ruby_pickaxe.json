@@ -4,10 +4,7 @@
     "has_golden_pickaxe": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:golden_pickaxe"
-            ]
+          {"items": [  "minecraft:golden_pickaxe"]
           }
         ]
       },
@@ -16,10 +13,7 @@
     "has_ruby_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:ruby_block"
-            ]
+          {"items": [  "normality:ruby_block"]
           }
         ]
       },

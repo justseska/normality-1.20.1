@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "normality:yellow_petals"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_dye"
+  }
+}

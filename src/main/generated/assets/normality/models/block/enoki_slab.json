@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "normality:block/enoki_planks",
+    "side": "normality:block/enoki_planks",
+    "top": "normality:block/enoki_planks"
+  }
+}

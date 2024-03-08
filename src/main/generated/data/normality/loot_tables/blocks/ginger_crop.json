@@ -11,24 +11,7 @@
       "entries": [
         {
           "type": "minecraft:alternatives",
-          "children": [
-            {
-              "type": "minecraft:item",
-              "conditions": [
-                {
-                  "block": "normality:ginger_crop",
-                  "condition": "minecraft:block_state_property",
-                  "properties": {
-                    "age": "6"
-                  }
-                }
-              ],
-              "name": "normality:ginger_root"
-            },
-            {
-              "type": "minecraft:item",
-              "name": "normality:ginger_root"
-            }
+          "children": [{  "type": "minecraft:item",  "conditions": [    {      "block": "normality:ginger_crop",      "condition": "minecraft:block_state_property",      "properties": {        "age": "6"      }    }  ],  "name": "normality:ginger_root"},{  "type": "minecraft:item",  "name": "normality:ginger_root"}
           ]
         }
       ],
@@ -40,24 +23,14 @@
         {
           "block": "normality:ginger_crop",
           "condition": "minecraft:block_state_property",
-          "properties": {
-            "age": "6"
+          "properties": {"age": "6"
           }
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:binomial_with_bonus_count",
-              "function": "minecraft:apply_bonus",
-              "parameters": {
-                "extra": 3,
-                "probability": 0.5714286
-              }
-            }
+          "functions": [{  "enchantment": "minecraft:fortune",  "formula": "minecraft:binomial_with_bonus_count",  "function": "minecraft:apply_bonus",  "parameters": {    "extra": 3,    "probability": 0.5714286  }}
           ],
           "name": "normality:ginger_root"
         }

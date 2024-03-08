@@ -4,10 +4,7 @@
     "has_granite_bricks": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:granite_bricks"
-            ]
+          {"items": [  "normality:granite_bricks"]
           }
         ]
       },

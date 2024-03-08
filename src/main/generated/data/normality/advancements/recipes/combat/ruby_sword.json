@@ -4,10 +4,7 @@
     "has_golden_sword": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:golden_sword"
-            ]
+          {"items": [  "minecraft:golden_sword"]
           }
         ]
       },
@@ -16,10 +13,7 @@
     "has_ruby_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:ruby_block"
-            ]
+          {"items": [  "normality:ruby_block"]
           }
         ]
       },

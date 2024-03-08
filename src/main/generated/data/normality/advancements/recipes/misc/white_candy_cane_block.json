@@ -10,10 +10,7 @@
     "has_white_candy_cane": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:white_candy_cane"
-            ]
+          {"items": [  "normality:white_candy_cane"]
           }
         ]
       },

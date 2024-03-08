@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "normality:holly_fence"
+    "normality:holly_fence",
+    "normality:enoki_fence",
+    "normality:chanterelle_fence"
   ]
 }

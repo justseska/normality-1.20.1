@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "normality:block/chanterelle_door_bottom",
+    "top": "normality:block/chanterelle_door_top"
+  }
+}

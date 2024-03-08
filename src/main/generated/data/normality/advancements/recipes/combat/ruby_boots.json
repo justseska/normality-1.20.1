@@ -4,10 +4,7 @@
     "has_golden_boots": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:golden_boots"
-            ]
+          {"items": [  "minecraft:golden_boots"]
           }
         ]
       },
@@ -16,10 +13,7 @@
     "has_ruby_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:ruby_block"
-            ]
+          {"items": [  "normality:ruby_block"]
           }
         ]
       },

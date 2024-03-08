@@ -4,10 +4,7 @@
     "has_polished_calcite": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:polished_calcite"
-            ]
+          {"items": [  "normality:polished_calcite"]
           }
         ]
       },

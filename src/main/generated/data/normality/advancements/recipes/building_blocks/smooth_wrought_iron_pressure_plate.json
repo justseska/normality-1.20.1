@@ -4,10 +4,7 @@
     "has_smooth_wrought_iron_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:smooth_wrought_iron_block"
-            ]
+          {"items": [  "normality:smooth_wrought_iron_block"]
           }
         ]
       },

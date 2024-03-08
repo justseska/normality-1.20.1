@@ -76,6 +76,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.AMETHYST_BRICK_SLAB);
                         entries.add(ModBlocks.AMETHYST_BRICK_WALL);
                         entries.add(ModBlocks.CRACKED_AMETHYST_BRICKS);
+                        entries.add(ModBlocks.AMETHYST_PILLAR);
                         entries.add(ModItems.RUBY);
                         entries.add(ModItems.RUBY_SWORD);
                         entries.add(ModItems.RUBY_SHOVEL);
@@ -90,6 +91,13 @@ public class ModItemGroup {
                         entries.add(ModBlocks.RUBY_ORE);
                         entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
                         entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModItems.CHOIR_SPRITE_WING);
+                        entries.add(ModItems.ROSE_FUZZ);
+                        entries.add(ModItems.ULTRAMARINE_FUZZ);
+                        entries.add(ModItems.CHARTREUSE_FUZZ);
+                        entries.add(ModItems.SPRING_GREEN_FUZZ);
+                        entries.add(ModItems.VIOLET_FUZZ);
+                        entries.add(ModItems.CAPRI_FUZZ);
                         entries.add(ModItems.WROUGHT_IRON_INGOT);
                         entries.add(ModBlocks.WROUGHT_IRON_BLOCK);
                         entries.add(ModBlocks.WROUGHT_IRON_WALL);
@@ -133,6 +141,9 @@ public class ModItemGroup {
                         entries.add(ModBlocks.WHITE_PLUMERIA);
                         entries.add(ModBlocks.ROSE);
                         entries.add(ModBlocks.CYAN_ROSE);
+                        entries.add(ModBlocks.YELLOW_PETALS);
+                        entries.add(ModBlocks.CLOVERS);
+                        entries.add(ModItems.FOUR_LEAF_CLOVER);
                         entries.add(ModItems.BLACK_CANDY_CANE);
                         entries.add(ModBlocks.BLACK_CANDY_CANE_BLOCK);
                         entries.add(ModBlocks.BLACK_CANDY_CANE_STAIRS);
@@ -197,10 +208,22 @@ public class ModItemGroup {
                         entries.add(ModBlocks.YELLOW_CANDY_CANE_BLOCK);
                         entries.add(ModBlocks.YELLOW_CANDY_CANE_STAIRS);
                         entries.add(ModBlocks.YELLOW_CANDY_CANE_SLAB);
-                        entries.add(ModBlocks.RED_LIGHTS);
+                        entries.add(ModBlocks.BLACK_LIGHTS);
                         entries.add(ModBlocks.BLUE_LIGHTS);
+                        entries.add(ModBlocks.BROWN_LIGHTS);
+                        entries.add(ModBlocks.CYAN_LIGHTS);
+                        entries.add(ModBlocks.GRAY_LIGHTS);
                         entries.add(ModBlocks.GREEN_LIGHTS);
+                        entries.add(ModBlocks.LIGHT_BLUE_LIGHTS);
+                        entries.add(ModBlocks.LIGHT_GRAY_LIGHTS);
+                        entries.add(ModBlocks.LIME_LIGHTS);
+                        entries.add(ModBlocks.MAGENTA_LIGHTS);
                         entries.add(ModBlocks.ORANGE_LIGHTS);
+                        entries.add(ModBlocks.PINK_LIGHTS);
+                        entries.add(ModBlocks.PURPLE_LIGHTS);
+                        entries.add(ModBlocks.RED_LIGHTS);
+                        entries.add(ModBlocks.WHITE_LIGHTS);
+                        entries.add(ModBlocks.YELLOW_LIGHTS);
 
                     }).build());
     public static void registerItemGroups() {

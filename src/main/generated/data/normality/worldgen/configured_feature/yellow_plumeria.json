@@ -5,20 +5,14 @@
       "feature": {
         "type": "minecraft:simple_block",
         "config": {
-          "to_place": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "normality:yellow_plumeria"
-            }
+          "to_place": {"type": "minecraft:simple_state_provider","state": {  "Name": "normality:yellow_plumeria"}
           }
         }
       },
       "placement": [
         {
           "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:air"
+          "predicate": {"type": "minecraft:matching_blocks","blocks": "minecraft:air"
           }
         }
       ]

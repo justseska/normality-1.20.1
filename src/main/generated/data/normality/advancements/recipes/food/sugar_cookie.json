@@ -4,10 +4,7 @@
     "has_sugar": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:sugar"
-            ]
+          {"items": [  "minecraft:sugar"]
           }
         ]
       },
@@ -22,10 +19,7 @@
     "has_wheat": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:wheat"
-            ]
+          {"items": [  "minecraft:wheat"]
           }
         ]
       },

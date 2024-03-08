@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "normality:block/chanterelle_planks",
+    "side": "normality:block/chanterelle_planks",
+    "top": "normality:block/chanterelle_planks"
+  }
+}

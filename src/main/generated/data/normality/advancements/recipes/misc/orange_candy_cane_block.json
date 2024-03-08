@@ -4,10 +4,7 @@
     "has_orange_candy_cane": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:orange_candy_cane"
-            ]
+          {"items": [  "normality:orange_candy_cane"]
           }
         ]
       },

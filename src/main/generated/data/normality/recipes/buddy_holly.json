@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "minecraft:armor_stand"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "H": {
+      "item": "normality:holly_wood"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "AHA",
+    "BAB"
+  ],
+  "result": {
+    "item": "normality:buddy_holly"
+  },
+  "show_notification": true
+}

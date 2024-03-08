@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": {
+      "item": "minecraft:glow_ink_sac"
+    },
+    "R": {
+      "item": "minecraft:cyan_dye"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "G G",
+    "R R"
+  ],
+  "result": {
+    "count": 6,
+    "item": "normality:cyan_lights"
+  },
+  "show_notification": true
+}

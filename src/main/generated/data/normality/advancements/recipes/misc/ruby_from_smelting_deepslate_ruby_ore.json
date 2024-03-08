@@ -4,10 +4,7 @@
     "has_deepslate_ruby_ore": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:deepslate_ruby_ore"
-            ]
+          {"items": [  "normality:deepslate_ruby_ore"]
           }
         ]
       },

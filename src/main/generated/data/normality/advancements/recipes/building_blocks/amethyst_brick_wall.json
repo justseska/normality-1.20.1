@@ -4,10 +4,7 @@
     "has_amethyst_bricks": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:amethyst_bricks"
-            ]
+          {"items": [  "normality:amethyst_bricks"]
           }
         ]
       },

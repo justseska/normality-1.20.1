@@ -4,10 +4,7 @@
     "has_brown_candy_cane_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:brown_candy_cane_block"
-            ]
+          {"items": [  "normality:brown_candy_cane_block"]
           }
         ]
       },

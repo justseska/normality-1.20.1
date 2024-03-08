@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "normality:block/stripped_chanterelle_stem_top",
+    "side": "normality:block/stripped_chanterelle_stem"
+  }
+}

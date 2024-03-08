@@ -4,10 +4,7 @@
     "has_polished_amethyst_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:polished_amethyst_block"
-            ]
+          {"items": [  "normality:polished_amethyst_block"]
           }
         ]
       },

@@ -6,6 +6,7 @@ import net.seska.normality.block.ModBlocks;
 import net.seska.normality.entity.ModBoats;
 import net.seska.normality.item.ModItemGroup;
 import net.seska.normality.item.ModItems;
+import net.seska.normality.potion.ModPotions;
 import net.seska.normality.util.ModRegistries;
 import net.seska.normality.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
@@ -21,10 +22,14 @@ public class NormalityMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlocks.init();
+		ModBoats.registerBoats();
 
 		ModWorldGeneration.generateModWorldGeneration();
-		ModBoats.registerBoats();
 		ModRegistries.registerModStuffs();
+
+		ModPotions.registerPotions();
+
 
 
 	}

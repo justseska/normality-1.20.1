@@ -4,10 +4,7 @@
     "has_crystallized_honey_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:crystallized_honey_block"
-            ]
+          {"items": [  "normality:crystallized_honey_block"]
           }
         ]
       },

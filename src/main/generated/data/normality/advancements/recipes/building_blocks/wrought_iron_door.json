@@ -10,10 +10,7 @@
     "has_wrought_iron_ingot": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:wrought_iron_ingot"
-            ]
+          {"items": [  "normality:wrought_iron_ingot"]
           }
         ]
       },

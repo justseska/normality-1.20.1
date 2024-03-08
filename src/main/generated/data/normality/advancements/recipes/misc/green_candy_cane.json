@@ -4,10 +4,7 @@
     "has_green_candy_cane_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:green_candy_cane_block"
-            ]
+          {"items": [  "normality:green_candy_cane_block"]
           }
         ]
       },

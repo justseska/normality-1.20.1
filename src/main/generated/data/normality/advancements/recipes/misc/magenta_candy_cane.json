@@ -4,10 +4,7 @@
     "has_magenta_candy_cane_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:magenta_candy_cane_block"
-            ]
+          {"items": [  "normality:magenta_candy_cane_block"]
           }
         ]
       },

@@ -4,10 +4,7 @@
     "has_amethyst_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:amethyst_block"
-            ]
+          {"items": [  "minecraft:amethyst_block"]
           }
         ]
       },
@@ -16,10 +13,7 @@
     "has_condensed_amethyst": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:condensed_amethyst"
-            ]
+          {"items": [  "normality:condensed_amethyst"]
           }
         ]
       },

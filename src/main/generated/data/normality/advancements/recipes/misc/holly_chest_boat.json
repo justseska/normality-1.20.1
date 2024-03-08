@@ -4,10 +4,7 @@
     "has_holly_boat": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:holly_boat"
-            ]
+          {"items": [  "normality:holly_boat"]
           }
         ]
       },

@@ -4,10 +4,7 @@
     "has_diorite_bricks": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:diorite_bricks"
-            ]
+          {"items": [  "normality:diorite_bricks"]
           }
         ]
       },

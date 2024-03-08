@@ -4,10 +4,7 @@
     "has_crimson_boat": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:crimson_boat"
-            ]
+          {"items": [  "normality:crimson_boat"]
           }
         ]
       },

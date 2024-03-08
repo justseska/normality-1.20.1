@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "normality:block/purple_lights",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "normality:block/purple_lights"
+    },
+    "facing=south": {
+      "model": "normality:block/purple_lights",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "normality:block/purple_lights",
+      "y": 270
+    }
+  }
+}

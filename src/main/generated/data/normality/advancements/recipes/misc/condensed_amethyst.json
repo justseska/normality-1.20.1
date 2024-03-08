@@ -4,10 +4,7 @@
     "has_amethyst_shard": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:amethyst_shard"
-            ]
+          {"items": [  "minecraft:amethyst_shard"]
           }
         ]
       },

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "normality:block/amethyst_pillar_top",
+    "side": "normality:block/amethyst_pillar"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "normality:block/enoki_slab"
+    },
+    "type=double": {
+      "model": "normality:block/enoki_planks"
+    },
+    "type=top": {
+      "model": "normality:block/enoki_slab_top"
+    }
+  }
+}

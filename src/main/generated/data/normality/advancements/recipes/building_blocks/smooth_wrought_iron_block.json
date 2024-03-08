@@ -10,10 +10,7 @@
     "has_wrought_iron_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:wrought_iron_block"
-            ]
+          {"items": [  "normality:wrought_iron_block"]
           }
         ]
       },

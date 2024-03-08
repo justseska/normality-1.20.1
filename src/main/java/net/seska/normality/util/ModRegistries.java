@@ -5,16 +5,21 @@ import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
+import net.minecraft.potion.Potions;
 import net.minecraft.village.TradeOffer;
 import net.minecraft.village.VillagerProfession;
 import net.seska.normality.block.ModBlocks;
 import net.seska.normality.item.ModItems;
+import net.seska.normality.mixin.BrewingRecipeRegistryMixin;
 
 public class ModRegistries {
+
+
     public static void registerModStuffs() {
         registerStrippables();
         registerFlammables();
         registerCustomTrades();
+        registerPotionRecipes();
     }
     private static void registerStrippables() {
         StrippableBlockRegistry.register(ModBlocks.HOLLY_LOG, ModBlocks.STRIPPED_HOLLY_LOG);
@@ -33,12 +38,9 @@ public class ModRegistries {
 
     }
     private static void registerCustomTrades () {
-        TradeOfferHelper.registerVillagerOffers(VillagerProfession.FARMER, 1,
-                factories -> {
-            factories.add((entity, random) -> new TradeOffer(
-                    new ItemStack(Items.EMERALD, 2),
-                    new ItemStack(ModItems.GINGER_ROOT, 3), 12, 2, 0.02f
-            ));
-                });
+        TradeOfferHelper.registerVillagerOffers(VillagerProfession.FARMER, 1,    factories -> {factories.add((entity, random) -> new TradeOffer(        new ItemStack(Items.EMERALD, 2),        new ItemStack(ModItems.GINGER_ROOT, 3), 12, 2, 0.02f));    });
+    }
+    private static void registerPotionRecipes() {
+        BrewingRecipeRegistryMixin.invokeRegisterPotionRecipe(Potions.AWKWARD, ModItems.FOUR_LEAF_CLOVER, Potions.LUCK);
     }
 }

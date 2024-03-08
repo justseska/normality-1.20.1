@@ -4,10 +4,7 @@
     "has_polished_diorite": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:polished_diorite"
-            ]
+          {"items": [  "minecraft:polished_diorite"]
           }
         ]
       },

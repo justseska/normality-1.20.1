@@ -4,10 +4,7 @@
     "has_ruby_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:ruby_block"
-            ]
+          {"items": [  "normality:ruby_block"]
           }
         ]
       },

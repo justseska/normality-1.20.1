@@ -4,10 +4,7 @@
     "has_holly_berries": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:holly_berries"
-            ]
+          {"items": [  "normality:holly_berries"]
           }
         ]
       },

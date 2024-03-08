@@ -4,10 +4,7 @@
     "has_honeycomb_bricks": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:honeycomb_bricks"
-            ]
+          {"items": [  "normality:honeycomb_bricks"]
           }
         ]
       },

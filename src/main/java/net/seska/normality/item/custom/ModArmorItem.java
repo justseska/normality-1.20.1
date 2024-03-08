@@ -14,10 +14,7 @@ import net.seska.normality.item.ModArmorMaterials;
 import java.util.Map;
 
 public class ModArmorItem extends ArmorItem {
-    private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
-            new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()
-                    .put(ModArmorMaterials.RUBY, new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 400, 1))
-                    .build();
+    private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>()        .put(ModArmorMaterials.RUBY, new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 400, 1))        .build();
 
     public ModArmorItem(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);
@@ -25,41 +22,27 @@ public class ModArmorItem extends ArmorItem {
 
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
-        if(!world.isClient() && entity instanceof PlayerEntity player) {
-            if(hasFullSuitOfArmorOn(player)) {
-                evaluateArmorEffects(player);
-            }
+        if(!world.isClient() && entity instanceof PlayerEntity player) {if(hasFullSuitOfArmorOn(player)) {    evaluateArmorEffects(player);}
         }
 
         super.inventoryTick(stack, world, entity, slot, selected);
     }
 
     private void evaluateArmorEffects(PlayerEntity player) {
-        for(Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {
-            ArmorMaterial mapArmorMaterial = entry.getKey();
-            StatusEffectInstance mapStatusEffect = entry.getValue();
-
-            if(hasCorrectArmorOn(mapArmorMaterial, player)) {
-                addStatusEffectForMaterial(player, mapStatusEffect);
-                break;
-            }
+        for(Map.Entry<ArmorMaterial, StatusEffectInstance> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {ArmorMaterial mapArmorMaterial = entry.getKey();StatusEffectInstance mapStatusEffect = entry.getValue();
+if(hasCorrectArmorOn(mapArmorMaterial, player)) {    addStatusEffectForMaterial(player, mapStatusEffect);    break;}
         }
     }
 
     private void addStatusEffectForMaterial(PlayerEntity player, StatusEffectInstance mapStatusEffect) {
         boolean hasPlayerEffectAlready = player.hasStatusEffect(mapStatusEffect.getEffectType());
 
-        if(!hasPlayerEffectAlready) {
-            player.addStatusEffect(new StatusEffectInstance(mapStatusEffect.getEffectType(),
-                    mapStatusEffect.getDuration(), mapStatusEffect.getAmplifier()));
+        if(!hasPlayerEffectAlready) {player.addStatusEffect(new StatusEffectInstance(mapStatusEffect.getEffectType(),        mapStatusEffect.getDuration(), mapStatusEffect.getAmplifier()));
         }
     }
 
     private boolean hasCorrectArmorOn(ArmorMaterial mapArmorMaterial, PlayerEntity player) {
-        for(ItemStack armorStack : player.getArmorItems()) {
-            if(!(armorStack.getItem() instanceof ArmorItem)) {
-                return false;
-            }
+        for(ItemStack armorStack : player.getArmorItems()) {if(!(armorStack.getItem() instanceof ArmorItem)) {    return false;}
         }
 
         ArmorItem boots = ((ArmorItem) player.getInventory().getArmorStack(0).getItem());
@@ -67,8 +50,7 @@ public class ModArmorItem extends ArmorItem {
         ArmorItem chestplate = ((ArmorItem) player.getInventory().getArmorStack(2).getItem());
         ArmorItem helmet = ((ArmorItem) player.getInventory().getArmorStack(3).getItem());
 
-        return helmet.getMaterial() == mapArmorMaterial && chestplate.getMaterial() == mapArmorMaterial &&
-                leggings.getMaterial() == mapArmorMaterial && boots.getMaterial() == mapArmorMaterial;
+        return helmet.getMaterial() == mapArmorMaterial && chestplate.getMaterial() == mapArmorMaterial &&    leggings.getMaterial() == mapArmorMaterial && boots.getMaterial() == mapArmorMaterial;
     }
 
     private boolean hasFullSuitOfArmorOn(PlayerEntity player) {
@@ -77,7 +59,6 @@ public class ModArmorItem extends ArmorItem {
         ItemStack chestplate = player.getInventory().getArmorStack(2);
         ItemStack helmet = player.getInventory().getArmorStack(3);
 
-        return !boots.isEmpty() && !leggings.isEmpty()
-                && !chestplate.isEmpty() && !helmet.isEmpty();
+        return !boots.isEmpty() && !leggings.isEmpty()    && !chestplate.isEmpty() && !helmet.isEmpty();
     }
 }

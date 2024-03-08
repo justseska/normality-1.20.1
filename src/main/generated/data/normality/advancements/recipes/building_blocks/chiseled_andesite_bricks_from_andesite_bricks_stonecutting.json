@@ -4,10 +4,7 @@
     "has_andesite_bricks": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:andesite_bricks"
-            ]
+          {"items": [  "normality:andesite_bricks"]
           }
         ]
       },

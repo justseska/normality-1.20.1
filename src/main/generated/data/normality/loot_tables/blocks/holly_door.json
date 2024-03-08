@@ -11,14 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "conditions": [
-            {
-              "block": "normality:holly_door",
-              "condition": "minecraft:block_state_property",
-              "properties": {
-                "half": "lower"
-              }
-            }
+          "conditions": [{  "block": "normality:holly_door",  "condition": "minecraft:block_state_property",  "properties": {    "half": "lower"  }}
           ],
           "name": "normality:holly_door"
         }

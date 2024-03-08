@@ -4,10 +4,7 @@
     "has_frosted_gingerbread_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:frosted_gingerbread_block"
-            ]
+          {"items": [  "normality:frosted_gingerbread_block"]
           }
         ]
       },

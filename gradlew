@@ -146,16 +146,14 @@ if ! "$cygwin" && ! "$darwin" && ! "$nonstop" ; then
       max*)
         # In POSIX sh, ulimit -H is undefined. That's why the result is checked to see if it worked.
         # shellcheck disable=SC3045
-        MAX_FD=$( ulimit -H -n ) ||
-            warn "Could not query maximum file descriptor limit"
+        MAX_FD=$( ulimit -H -n ) ||warn "Could not query maximum file descriptor limit"
     esac
     case $MAX_FD in  #(
       '' | soft) :;; #(
       *)
         # In POSIX sh, ulimit -n is undefined. That's why the result is checked to see if it worked.
         # shellcheck disable=SC3045
-        ulimit -n "$MAX_FD" ||
-            warn "Could not set maximum file descriptor limit to $MAX_FD"
+        ulimit -n "$MAX_FD" ||warn "Could not set maximum file descriptor limit to $MAX_FD"
     esac
 fi
 
@@ -176,15 +174,8 @@ if "$cygwin" || "$msys" ; then
 
     # Now convert the arguments - kludge to limit ourselves to /bin/sh
     for arg do
-        if
-            case $arg in                                #(
-              -*)   false ;;                            # don't mess with options #(
-              /?*)  t=${arg#/} t=/${t%%/*}              # looks like a POSIX filepath
-                    [ -e "$t" ] ;;                      #(
-              *)    false ;;
-            esac
-        then
-            arg=$( cygpath --path --ignore --mixed "$arg" )
+        ifcase $arg in                                #(  -*)   false ;;                            # don't mess with options #(  /?*)  t=${arg#/} t=/${t%%/*}              # looks like a POSIX filepath        [ -e "$t" ] ;;                      #(  *)    false ;;esac
+        thenarg=$( cygpath --path --ignore --mixed "$arg" )
         fi
         # Roll the args list around exactly as many times as the number of
         # args, so each arg winds up back in the position where it started, but

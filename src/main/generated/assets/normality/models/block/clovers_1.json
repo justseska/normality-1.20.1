@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/flowerbed_1",
+  "textures": {
+    "flowerbed": "normality:block/clovers",
+    "stem": "normality:block/clovers_stem"
+  }
+}

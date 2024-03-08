@@ -4,10 +4,7 @@
     "has_golden_hoe": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:golden_hoe"
-            ]
+          {"items": [  "minecraft:golden_hoe"]
           }
         ]
       },
@@ -16,10 +13,7 @@
     "has_ruby_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:ruby_block"
-            ]
+          {"items": [  "normality:ruby_block"]
           }
         ]
       },

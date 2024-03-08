@@ -4,10 +4,7 @@
     "has_golden_helmet": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:golden_helmet"
-            ]
+          {"items": [  "minecraft:golden_helmet"]
           }
         ]
       },
@@ -16,10 +13,7 @@
     "has_ruby_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:ruby_block"
-            ]
+          {"items": [  "normality:ruby_block"]
           }
         ]
       },

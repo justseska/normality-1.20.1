@@ -10,10 +10,7 @@
     "has_warped_boat": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:warped_boat"
-            ]
+          {"items": [  "normality:warped_boat"]
           }
         ]
       },

@@ -4,10 +4,7 @@
     "has_crystallized_honey": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:crystallized_honey"
-            ]
+          {"items": [  "normality:crystallized_honey"]
           }
         ]
       },
@@ -16,10 +13,7 @@
     "has_honeycomb_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "minecraft:honeycomb_block"
-            ]
+          {"items": [  "minecraft:honeycomb_block"]
           }
         ]
       },

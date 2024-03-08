@@ -10,10 +10,7 @@
     "has_yellow_candy_cane_block": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:yellow_candy_cane_block"
-            ]
+          {"items": [  "normality:yellow_candy_cane_block"]
           }
         ]
       },

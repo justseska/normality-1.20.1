@@ -4,10 +4,7 @@
     "has_calcite_bricks": {
       "conditions": {
         "items": [
-          {
-            "items": [
-              "normality:calcite_bricks"
-            ]
+          {"items": [  "normality:calcite_bricks"]
           }
         ]
       },
