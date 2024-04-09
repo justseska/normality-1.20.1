@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "normality:spring_green_cloth"
+    }
+  },
+  "pattern": [
+    "SS"
+  ],
+  "result": {
+    "count": 3,
+    "item": "normality:spring_green_carpet"
+  },
+  "show_notification": true
+}

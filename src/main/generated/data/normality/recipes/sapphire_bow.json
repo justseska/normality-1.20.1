@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "S": {
+      "item": "normality:sapphire"
+    }
+  },
+  "pattern": [
+    "  S",
+    " BS",
+    "  S"
+  ],
+  "result": {
+    "item": "normality:sapphire_bow"
+  },
+  "show_notification": true
+}

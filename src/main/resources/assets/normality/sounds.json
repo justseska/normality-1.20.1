@@ -1,0 +1,43 @@
+{
+  "entity.mouse.ambient": {
+    "sounds": [
+      "normality:entity/mouse/ambient1",
+      "normality:entity/mouse/ambient2",
+      "normality:entity/mouse/ambient3"
+    ],
+    "subtitle": "subtitles.normality.entity.mouse.ambient"
+  },
+  "entity.mouse.death": {
+    "sounds": [
+      "normality:entity/mouse/die"
+    ],
+    "subtitle": "subtitles.normality.entity.mouse.die"
+  },
+  "entity.mouse.hurt": {
+    "sounds": [
+      "normality:entity/mouse/hurt"
+    ],
+    "subtitle": "subtitles.normality.entity.mouse.hurt"
+  },
+  "entity.choir_sprite.ambient": {
+    "sounds": [
+      "normality:entity/choir_sprite/ambient1",
+      "normality:entity/choir_sprite/ambient2",
+      "normality:entity/choir_sprite/ambient3",
+      "normality:entity/choir_sprite/ambient4"
+    ],
+    "subtitle": "subtitles.normality.entity.choir_sprite.ambient"
+  },
+  "entity.choir_sprite.death": {
+    "sounds": [
+      "normality:entity/choir_sprite/die"
+    ],
+    "subtitle": "subtitles.normality.entity.choir_sprite.die"
+  },
+  "entity.choir_sprite.hurt": {
+    "sounds": [
+      "normality:entity/choir_sprite/hurt"
+    ],
+    "subtitle": "subtitles.normality.entity.choir_sprite.hurt"
+  }
+}

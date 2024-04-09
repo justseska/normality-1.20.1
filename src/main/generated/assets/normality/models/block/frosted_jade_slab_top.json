@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "normality:block/frosted_jade_block",
+    "side": "normality:block/frosted_jade_block",
+    "top": "normality:block/frosted_jade_block"
+  }
+}

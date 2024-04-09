@@ -4,7 +4,7 @@ import net.minecraft.block.WallHangingSignBlock;
 import net.minecraft.block.WoodType;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.util.math.BlockPos;
-import net.seska.normality.block.entity.ModHangingSignBlockEntity;
+import net.seska.normality.entity.ModHangingSignBlockEntity;
 
 public class ModWallHangingSignBlock extends WallHangingSignBlock {
     public ModWallHangingSignBlock(Settings settings, WoodType woodType) {

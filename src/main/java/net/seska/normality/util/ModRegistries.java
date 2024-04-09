@@ -1,5 +1,6 @@
 package net.seska.normality.util;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
@@ -9,6 +10,9 @@ import net.minecraft.potion.Potions;
 import net.minecraft.village.TradeOffer;
 import net.minecraft.village.VillagerProfession;
 import net.seska.normality.block.ModBlocks;
+import net.seska.normality.entity.ModEntities;
+import net.seska.normality.entity.custom.ChoirSpriteEntity;
+import net.seska.normality.entity.custom.MouseEntity;
 import net.seska.normality.item.ModItems;
 import net.seska.normality.mixin.BrewingRecipeRegistryMixin;
 
@@ -20,10 +24,17 @@ public class ModRegistries {
         registerFlammables();
         registerCustomTrades();
         registerPotionRecipes();
+        registerAttributes();
+    }
+    private static void registerAttributes() {
+        FabricDefaultAttributeRegistry.register(ModEntities.CHOIR_SPRITE, ChoirSpriteEntity.createChoirSpriteAttributes());
+        FabricDefaultAttributeRegistry.register(ModEntities.MOUSE, MouseEntity.createMouseAttributes());
     }
     private static void registerStrippables() {
         StrippableBlockRegistry.register(ModBlocks.HOLLY_LOG, ModBlocks.STRIPPED_HOLLY_LOG);
         StrippableBlockRegistry.register(ModBlocks.HOLLY_WOOD, ModBlocks.STRIPPED_HOLLY_WOOD);
+        StrippableBlockRegistry.register(ModBlocks.CHANTERELLE_STEM, ModBlocks.STRIPPED_CHANTERELLE_STEM);
+        StrippableBlockRegistry.register(ModBlocks.ENOKI_STEM, ModBlocks.STRIPPED_ENOKI_STEM);
     }
     private static void registerFlammables() {
         FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.HOLLY_LOG, 5, 5);

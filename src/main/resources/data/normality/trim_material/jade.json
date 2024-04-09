@@ -1,0 +1,9 @@
+{
+  "asset_name": "jade",
+  "description": {
+    "color": "#67c56c",
+    "translate": "trim_material.normality.jade"
+  },
+  "ingredient": "normality:jade",
+  "item_model_index": 0.06
+}

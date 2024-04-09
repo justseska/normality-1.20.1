@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "normality:enoki_stems"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "normality:enoki_planks"
+  }
+}

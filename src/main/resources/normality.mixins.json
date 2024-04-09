@@ -4,7 +4,12 @@
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin",
-		"BrewingRecipeRegistryMixin"
+		"BrewingRecipeRegistryMixin",
+		"CatEntityMixin",
+		"FishingBobberAccessor",
+		"FishingBobberValidityMixin",
+		"FishingBobberRendererMixin",
+		"ElytraItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

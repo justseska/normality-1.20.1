@@ -1,0 +1,39 @@
+{
+  "parent": "normality:normality",
+  "criteria": {
+    "has_cheese": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "normality:cheese"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "normality:textures/block/deepslate_jade_ore.png",
+    "description": {
+      "text": "Craft Cheese"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "normality:cheese"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Cheesy!"
+    }
+  },
+  "requirements": [
+    [
+      "has_cheese"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

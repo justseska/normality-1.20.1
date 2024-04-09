@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "normality:violet_cloth"
+    }
+  },
+  "pattern": [
+    "SS"
+  ],
+  "result": {
+    "count": 3,
+    "item": "normality:violet_carpet"
+  },
+  "show_notification": true
+}

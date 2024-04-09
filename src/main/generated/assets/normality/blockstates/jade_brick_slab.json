@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "normality:block/jade_brick_slab"
+    },
+    "type=double": {
+      "model": "normality:block/jade_bricks"
+    },
+    "type=top": {
+      "model": "normality:block/jade_brick_slab_top"
+    }
+  }
+}

@@ -13,13 +13,14 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.collection.DataPool;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.intprovider.ConstantIntProvider;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
+import net.minecraft.world.gen.blockpredicate.BlockPredicate;
 import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
-import net.minecraft.world.gen.foliage.RandomSpreadFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.stateprovider.PredicatedStateProvider;
 import net.minecraft.world.gen.stateprovider.WeightedBlockStateProvider;
-import net.minecraft.world.gen.trunk.BendingTrunkPlacer;
 import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 import net.seska.normality.NormalityMod;
 import net.seska.normality.block.ModBlocks;
@@ -33,6 +34,8 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> CHANTERELLE_MUSHROOM_KEY =registryKey("chanterelle_mushroom");
     public static final RegistryKey<ConfiguredFeature<?, ?>> ENOKI_MUSHROOM_KEY =registryKey("enoki_mushroom");
     public static final RegistryKey<ConfiguredFeature<?, ?>> RUBY_ORE_KEY = registryKey("ruby_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> JADE_ORE_KEY = registryKey("jade_ore");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> SAPPHIRE_DISK_KEY = registryKey("sapphire_disk");
     public static final RegistryKey<ConfiguredFeature<?, ?>> RED_PLUMERIA_KEY = registryKey("red_plumeria");
     public static final RegistryKey<ConfiguredFeature<?, ?>> BLUE_PLUMERIA_KEY = registryKey("blue_plumeria");
     public static final RegistryKey<ConfiguredFeature<?, ?>> WHITE_PLUMERIA_KEY = registryKey("white_plumeria");
@@ -46,7 +49,7 @@ public class ModConfiguredFeatures {
         RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreFeatureConfig.Target> overworldRubyOres =    List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RUBY_ORE.getDefaultState()),            OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_RUBY_ORE.getDefaultState()));
-
+        List<OreFeatureConfig.Target> overworldJadeOres =    List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.JADE_ORE.getDefaultState()),            OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_JADE_ORE.getDefaultState()));
         register(context, CHANTERELLE_KEY, Feature.HUGE_BROWN_MUSHROOM, new HugeMushroomFeatureConfig(    BlockStateProvider.of(ModBlocks.CHANTERELLE_BLOCK),    BlockStateProvider.of(ModBlocks.CHANTERELLE_STEM), 3));
 
         register(context, ENOKI_KEY, Feature.HUGE_RED_MUSHROOM, new HugeMushroomFeatureConfig(    BlockStateProvider.of(ModBlocks.ENOKI_BLOCK),    BlockStateProvider.of(ModBlocks.ENOKI_STEM), 1));
@@ -58,6 +61,8 @@ public class ModConfiguredFeatures {
 
 
         register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 5));
+        register(context, JADE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldJadeOres, 6));
+        register(context, SAPPHIRE_DISK_KEY, Feature.DISK, new DiskFeatureConfig(PredicatedStateProvider.of(ModBlocks.CLAY_SAPPHIRE_ORE), BlockPredicate.matchingBlocks(List.of(Blocks.CLAY)), UniformIntProvider.create(0, 1), 1));
 
         register(context, RED_PLUMERIA_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,    new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.RED_PLUMERIA)))));
         register(context, BLUE_PLUMERIA_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(32, 7, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,    new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.BLUE_PLUMERIA)))));

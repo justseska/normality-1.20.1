@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "normality:block/jade_tile_slab"
+    },
+    "type=double": {
+      "model": "normality:block/jade_tiles"
+    },
+    "type=top": {
+      "model": "normality:block/jade_tile_slab_top"
+    }
+  }
+}

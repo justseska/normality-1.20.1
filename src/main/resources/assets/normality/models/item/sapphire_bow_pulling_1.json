@@ -1,0 +1,6 @@
+{
+  "parent": "normality:item/sapphire_bow",
+  "textures": {
+    "layer0": "normality:item/sapphire_bow_pulling_1"
+  }
+}

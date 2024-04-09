@@ -1,0 +1,92 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "normality:item/sapphire_turtle_shell_jade_trim",
+      "predicate": {
+        "trim_type": 0.06
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_crystallized_honey_trim",
+      "predicate": {
+        "trim_type": 0.07
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_sapphire_darker_trim",
+      "predicate": {
+        "trim_type": 0.08
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_ruby_trim",
+      "predicate": {
+        "trim_type": 0.09
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_quartz_trim",
+      "predicate": {
+        "trim_type": 0.1
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_iron_trim",
+      "predicate": {
+        "trim_type": 0.2
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_netherite_trim",
+      "predicate": {
+        "trim_type": 0.3
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_redstone_trim",
+      "predicate": {
+        "trim_type": 0.4
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_copper_trim",
+      "predicate": {
+        "trim_type": 0.5
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_gold_trim",
+      "predicate": {
+        "trim_type": 0.6
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_emerald_trim",
+      "predicate": {
+        "trim_type": 0.7
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_diamond_trim",
+      "predicate": {
+        "trim_type": 0.8
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_lapis_trim",
+      "predicate": {
+        "trim_type": 0.9
+      }
+    },
+    {
+      "model": "normality:item/sapphire_turtle_shell_amethyst_trim",
+      "predicate": {
+        "trim_type": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "normality:item/sapphire_turtle_shell"
+  }
+}

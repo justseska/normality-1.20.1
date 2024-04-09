@@ -24,5 +24,8 @@ public class ModFoodComponents {
     public static final FoodComponent GINGERBREAD_COOKIE = new FoodComponent.Builder().hunger(2).saturationModifier(0.1f).build();
     public static final FoodComponent FROSTED_GINGERBREAD_COOKIE = new FoodComponent.Builder().hunger(4).saturationModifier(0.5f).build();
     public static final FoodComponent GINGER_ROOT = new FoodComponent.Builder().hunger(1).saturationModifier(0.3f).build();
+    public static final FoodComponent CURDLED_MILK = new FoodComponent.Builder().hunger(0).saturationModifier(0f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA), 0.75f).build();
+    public static final FoodComponent CHEESE_CURDS = new FoodComponent.Builder().hunger(1).saturationModifier(1f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA), 0.25f).build();
+    public static final FoodComponent CHEESE = new FoodComponent.Builder().hunger(4).saturationModifier(1f).build();
 
 }

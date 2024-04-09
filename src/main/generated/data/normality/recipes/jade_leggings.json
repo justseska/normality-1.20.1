@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "normality:jade_rod"
+    },
+    "S": {
+      "item": "normality:jade"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "R R",
+    "S S"
+  ],
+  "result": {
+    "item": "normality:jade_leggings"
+  },
+  "show_notification": true
+}

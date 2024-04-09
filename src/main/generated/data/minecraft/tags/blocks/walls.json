@@ -9,6 +9,12 @@
     "normality:diorite_brick_wall",
     "normality:andesite_brick_wall",
     "normality:granite_brick_wall",
-    "normality:polished_calcite_wall"
+    "normality:polished_calcite_wall",
+    "normality:jade_wall",
+    "normality:jade_brick_wall",
+    "normality:jade_tile_wall",
+    "normality:frosted_jade_wall",
+    "normality:frosted_jade_brick_wall",
+    "normality:frosted_jade_tile_wall"
   ]
 }

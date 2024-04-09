@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "normality:ultramarine_cloth"
+    }
+  },
+  "pattern": [
+    "SS"
+  ],
+  "result": {
+    "count": 3,
+    "item": "normality:ultramarine_carpet"
+  },
+  "show_notification": true
+}

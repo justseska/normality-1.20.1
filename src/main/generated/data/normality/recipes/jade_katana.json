@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "normality:jade_katana_blade"
+    },
+    {
+      "item": "normality:jade_katana_handle"
+    }
+  ],
+  "result": {
+    "item": "normality:jade_katana"
+  }
+}

@@ -3,7 +3,6 @@ package net.seska.normality.item;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ArmorMaterials;
-import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
@@ -22,7 +21,14 @@ public enum ModArmorMaterials implements ArmorMaterial
         map.put(ArmorItem.Type.LEGGINGS, 5);
         map.put(ArmorItem.Type.CHESTPLATE, 6);
         map.put(ArmorItem.Type.HELMET, 2);
-    }), 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0.0f, () -> Ingredient.ofItems(ModItems.RUBY));
+    }), 25, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 0.0f, () -> Ingredient.ofItems(ModItems.RUBY)),
+    SAPPHIRE("sapphire", 15, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
+        map.put(ArmorItem.Type.HELMET, 2);
+    }), 25, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE, 1.0f, 0.0f, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
+    JADE("jade", 25, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
+    map.put(ArmorItem.Type.LEGGINGS, 5);
+}), 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 1.0f, 1.0f, () -> Ingredient.ofItems(ModItems.JADE));
+
 
 
     public static final StringIdentifiable.Codec<ArmorMaterials> CODEC;

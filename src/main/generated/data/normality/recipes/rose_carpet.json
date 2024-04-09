@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "normality:rose_cloth"
+    }
+  },
+  "pattern": [
+    "SS"
+  ],
+  "result": {
+    "count": 3,
+    "item": "normality:rose_carpet"
+  },
+  "show_notification": true
+}

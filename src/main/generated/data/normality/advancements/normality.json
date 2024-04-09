@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "has_jade": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "normality:jade"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "normality:textures/block/deepslate_jade_ore.png",
+    "description": {
+      "text": "Collect a Jade"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "normality:jade"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Don't Be Jaded!"
+    }
+  },
+  "requirements": [
+    [
+      "has_jade"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

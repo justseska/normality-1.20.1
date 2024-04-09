@@ -1,0 +1,9 @@
+{
+  "asset_name": "sapphire",
+  "description": {
+    "color": "#6b9aff",
+    "translate": "trim_material.normality.sapphire"
+  },
+  "ingredient": "normality:sapphire",
+  "item_model_index": 0.08
+}

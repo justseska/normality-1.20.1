@@ -1,0 +1,40 @@
+{
+  "parent": "normality:normality",
+  "criteria": {
+    "has_jade_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "normality:jade_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "normality:textures/block/deepslate_jade_ore.png",
+    "description": {
+      "text": "Craft Jade Leggings"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "normality:jade_leggings",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "It's Designer"
+    }
+  },
+  "requirements": [
+    [
+      "has_jade_leggings"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

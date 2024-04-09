@@ -1,0 +1,9 @@
+{
+  "asset_name": "crystallized_honey",
+  "description": {
+    "color": "#ffd32d",
+    "translate": "trim_material.normality.crystallized_honey"
+  },
+  "ingredient": "normality:crystallized_honey",
+  "item_model_index": 0.07
+}

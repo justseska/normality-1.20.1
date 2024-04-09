@@ -2,23 +2,10 @@ package net.seska.normality.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.CarrotsBlock;
 import net.minecraft.block.CropBlock;
-import net.minecraft.enchantment.Enchantments;
-import net.minecraft.item.Items;
-import net.minecraft.loot.LootPool;
-import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
-import net.minecraft.loot.condition.TableBonusLootCondition;
-import net.minecraft.loot.entry.ItemEntry;
-import net.minecraft.loot.entry.LeafEntry;
-import net.minecraft.loot.entry.LootPoolEntry;
-import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.predicate.StatePredicate;
 import net.seska.normality.block.ModBlocks;
-import net.seska.normality.block.custom.GingerCropBlock;
 import net.seska.normality.item.ModItems;
 
 public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
@@ -32,6 +19,58 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RUBY_BLOCK);
         addDrop(ModBlocks.RUBY_ORE, oreDrops(ModBlocks.RUBY_ORE, ModItems.RUBY));
         addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, oreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RUBY));
+        //JADE
+        addDrop(ModBlocks.JADE_ORE, oreDrops(ModBlocks.JADE_ORE, ModItems.JADE));
+        addDrop(ModBlocks.DEEPSLATE_JADE_ORE, oreDrops(ModBlocks.DEEPSLATE_JADE_ORE, ModItems.JADE));
+        addDrop(ModBlocks.JADE_BLOCK);
+        addDrop(ModBlocks.JADE_STAIRS);
+        addDrop(ModBlocks.JADE_SLAB, slabDrops(ModBlocks.JADE_SLAB));
+        addDrop(ModBlocks.JADE_WALL);
+        addDrop(ModBlocks.JADE_BRICKS);
+        addDrop(ModBlocks.JADE_BRICK_STAIRS);
+        addDrop(ModBlocks.JADE_BRICK_SLAB, slabDrops(ModBlocks.JADE_BRICK_SLAB));
+        addDrop(ModBlocks.JADE_BRICK_WALL);
+        addDrop(ModBlocks.JADE_TILES);
+        addDrop(ModBlocks.JADE_TILE_STAIRS);
+        addDrop(ModBlocks.JADE_TILE_SLAB, slabDrops(ModBlocks.JADE_TILE_SLAB));
+        addDrop(ModBlocks.JADE_TILE_WALL);
+        addDrop(ModBlocks.CHISELED_JADE_BLOCK);
+        addDrop(ModBlocks.JADE_DOOR, doorDrops(ModBlocks.JADE_DOOR));
+        addDrop(ModBlocks.JADE_TRAPDOOR);
+        addDrop(ModBlocks.FROSTED_JADE_BLOCK);
+        addDrop(ModBlocks.FROSTED_JADE_STAIRS);
+        addDrop(ModBlocks.FROSTED_JADE_SLAB, slabDrops(ModBlocks.FROSTED_JADE_SLAB));
+        addDrop(ModBlocks.FROSTED_JADE_WALL);
+        addDrop(ModBlocks.FROSTED_JADE_BRICKS);
+        addDrop(ModBlocks.FROSTED_JADE_BRICK_STAIRS);
+        addDrop(ModBlocks.FROSTED_JADE_BRICK_SLAB, slabDrops(ModBlocks.FROSTED_JADE_BRICK_SLAB));
+        addDrop(ModBlocks.FROSTED_JADE_BRICK_WALL);
+        addDrop(ModBlocks.FROSTED_JADE_TILES);
+        addDrop(ModBlocks.FROSTED_JADE_TILE_STAIRS);
+        addDrop(ModBlocks.FROSTED_JADE_TILE_SLAB, slabDrops(ModBlocks.FROSTED_JADE_TILE_SLAB));
+        addDrop(ModBlocks.FROSTED_JADE_TILE_WALL);
+        addDrop(ModBlocks.CHISELED_FROSTED_JADE_BLOCK);
+        addDrop(ModBlocks.FROSTED_JADE_DOOR, doorDrops(ModBlocks.FROSTED_JADE_DOOR));
+        addDrop(ModBlocks.FROSTED_JADE_TRAPDOOR);
+        //HARDENED GLASS
+        addDrop(ModBlocks.HARDENED_GLASS);
+        addDrop(ModBlocks.HARDENED_TINTED_GLASS);
+        addDrop(ModBlocks.BLACK_HARDENED_GLASS);
+        addDrop(ModBlocks.BLUE_HARDENED_GLASS);
+        addDrop(ModBlocks.BROWN_HARDENED_GLASS);
+        addDrop(ModBlocks.CYAN_HARDENED_GLASS);
+        addDrop(ModBlocks.GRAY_HARDENED_GLASS);
+        addDrop(ModBlocks.GREEN_HARDENED_GLASS);
+        addDrop(ModBlocks.LIGHT_BLUE_HARDENED_GLASS);
+        addDrop(ModBlocks.LIGHT_GRAY_HARDENED_GLASS);
+        addDrop(ModBlocks.LIME_HARDENED_GLASS);
+        addDrop(ModBlocks.MAGENTA_HARDENED_GLASS);
+        addDrop(ModBlocks.ORANGE_HARDENED_GLASS);
+        addDrop(ModBlocks.PINK_HARDENED_GLASS);
+        addDrop(ModBlocks.PURPLE_HARDENED_GLASS);
+        addDrop(ModBlocks.RED_HARDENED_GLASS);
+        addDrop(ModBlocks.WHITE_HARDENED_GLASS);
+        addDrop(ModBlocks.YELLOW_HARDENED_GLASS);
         //HONEY
         addDrop(ModBlocks.HONEYCOMB_BRICKS);
         addDrop(ModBlocks.HONEYCOMB_BRICK_WALL);
@@ -65,6 +104,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.STRIPPED_HOLLY_LOG);
         addDrop(ModBlocks.HOLLY_WOOD_SIGN);
         addDrop(ModBlocks.HOLLY_WOOD_HANGING_SIGN);
+        addDrop(ModBlocks.BUDDY_HOLLY);
         //CHANTERELLE
         addDrop(ModBlocks.CHANTERELLE_PLANKS);
         addDrop(ModBlocks.CHANTERELLE_STAIRS);
@@ -80,6 +120,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CHANTERELLE_SIGN);
         addDrop(ModBlocks.CHANTERELLE_HANGING_SIGN);
         addDrop(ModBlocks.CHANTERELLE_MUSHROOM);
+        addDrop(ModBlocks.CHANTERELLE_BLOCK, ModBlocks.CHANTERELLE_MUSHROOM);
         //ENOKI
         addDrop(ModBlocks.ENOKI_PLANKS);
         addDrop(ModBlocks.ENOKI_STAIRS);
@@ -95,6 +136,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ENOKI_SIGN);
         addDrop(ModBlocks.ENOKI_HANGING_SIGN);
         addDrop(ModBlocks.ENOKI_MUSHROOM);
+        addDrop(ModBlocks.ENOKI_BLOCK, ModBlocks.ENOKI_MUSHROOM);
         //DECORATIONS
         addDrop(ModBlocks.BLACK_CANDY_CANE_BLOCK);
         addDrop(ModBlocks.BLACK_CANDY_CANE_STAIRS);
@@ -154,6 +196,26 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.SMOOTH_GINGERBREAD_STAIRS);
         addDrop(ModBlocks.SMOOTH_GINGERBREAD_SLAB, slabDrops(ModBlocks.SMOOTH_GINGERBREAD_SLAB));
         addDrop(ModBlocks.FROSTED_SMOOTH_GINGERBREAD_BLOCK);
+        //EDUCATION EDITION
+        addDrop(ModBlocks.HARDENED_GLASS);
+        addDrop(ModBlocks.HARDENED_TINTED_GLASS);
+        addDrop(ModBlocks.BLACK_HARDENED_GLASS);
+        addDrop(ModBlocks.BLUE_HARDENED_GLASS);
+        addDrop(ModBlocks.BROWN_HARDENED_GLASS);
+        addDrop(ModBlocks.CYAN_HARDENED_GLASS);
+        addDrop(ModBlocks.GRAY_HARDENED_GLASS);
+        addDrop(ModBlocks.GREEN_HARDENED_GLASS);
+        addDrop(ModBlocks.LIGHT_BLUE_HARDENED_GLASS);
+        addDrop(ModBlocks.LIGHT_GRAY_HARDENED_GLASS);
+        addDrop(ModBlocks.LIME_HARDENED_GLASS);
+        addDrop(ModBlocks.MAGENTA_HARDENED_GLASS);
+        addDrop(ModBlocks.ORANGE_HARDENED_GLASS);
+        addDrop(ModBlocks.PINK_HARDENED_GLASS);
+        addDrop(ModBlocks.PURPLE_HARDENED_GLASS);
+        addDrop(ModBlocks.RED_HARDENED_GLASS);
+        addDrop(ModBlocks.WHITE_HARDENED_GLASS);
+        addDrop(ModBlocks.YELLOW_HARDENED_GLASS);
+
         //VANILLA ADDITIONS BLOCKS
         addDrop(ModBlocks.POLISHED_CALCITE);
         addDrop(ModBlocks.POLISHED_CALCITE_STAIRS);
@@ -222,7 +284,24 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WHITE_PLUMERIA);
         addDrop(ModBlocks.YELLOW_PLUMERIA);
         addDrop(ModBlocks.YELLOW_PETALS, flowerbedDrops(ModBlocks.YELLOW_PETALS));
+        addDrop(ModBlocks.ROSE);
+        addDrop(ModBlocks.CYAN_ROSE);
         //CROPS
+        //CLOTH
+        addDrop(ModBlocks.ROSE_CLOTH);
+        addDrop(ModBlocks.ULTRAMARINE_CLOTH);
+        addDrop(ModBlocks.CHARTREUSE_CLOTH);
+        addDrop(ModBlocks.SPRING_GREEN_CLOTH);
+        addDrop(ModBlocks.VIOLET_CLOTH);
+        addDrop(ModBlocks.CAPRI_CLOTH);
+        addDrop(ModBlocks.PRIMROSE_CLOTH);
+        addDrop(ModBlocks.ROSE_CARPET);
+        addDrop(ModBlocks.ULTRAMARINE_CARPET);
+        addDrop(ModBlocks.CHARTREUSE_CARPET);
+        addDrop(ModBlocks.SPRING_GREEN_CARPET);
+        addDrop(ModBlocks.VIOLET_CARPET);
+        addDrop(ModBlocks.CAPRI_CARPET);
+        addDrop(ModBlocks.PRIMROSE_CARPET);
 
 
 

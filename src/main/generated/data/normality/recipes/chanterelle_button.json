@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "normality:chanterelle_planks"
+    }
+  ],
+  "result": {
+    "item": "normality:chanterelle_button"
+  }
+}

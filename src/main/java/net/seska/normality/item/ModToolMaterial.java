@@ -1,15 +1,16 @@
 package net.seska.normality.item;
 
 import net.fabricmc.yarn.constants.MiningLevels;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Lazy;
+
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-        RUBY(MiningLevels.STONE, 1561, 12.0f, 0.0f, 22, () -> Ingredient.ofItems(ModItems.RUBY));
+        RUBY(MiningLevels.STONE, 1561, 12.0f, 0.0f, 22, () -> Ingredient.ofItems(ModItems.RUBY)),
+        SAPPHIRE(MiningLevels.STONE, 1561, 12.0f, 0.0f, 22, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
+    JADE(MiningLevels.STONE, 1561, 12.0f, 0.0f, 22, () -> Ingredient.ofItems(ModItems.JADE));
 
         private final int miningLevel;
         private final int itemDurability;

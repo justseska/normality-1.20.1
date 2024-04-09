@@ -11,7 +11,6 @@ import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.gen.feature.TreeConfiguredFeatures;
@@ -20,14 +19,48 @@ import net.seska.normality.block.custom.*;
 import net.seska.normality.util.ModWoodTypes;
 import net.seska.normality.world.tree.HollySaplingGenerator;
 
-import java.awt.*;
-import java.util.Locale;
-
 public class ModBlocks {
     //RUBY
-    public static final Block RUBY_ORE = registerBlock("ruby_ore",new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.EMERALD_ORE), UniformIntProvider.create(3,6)));
-    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.DEEPSLATE_EMERALD_ORE), UniformIntProvider.create(3,6)));
+    public static final Block RUBY_ORE = registerBlock("ruby_ore",new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.EMERALD_ORE), UniformIntProvider.create(3, 6)));
+    public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.DEEPSLATE_EMERALD_ORE), UniformIntProvider.create(3, 6)));
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    //SAPPHIRE
+    public static final Block CLAY_SAPPHIRE_ORE = registerBlock("clay_sapphire_ore", new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.CLAY), UniformIntProvider.create(3, 6)));
+    public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+
+    //JADE
+    public static final Block JADE_ORE = registerBlock("jade_ore", new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.COPPER_ORE), UniformIntProvider.create(3, 6)));
+    public static final Block DEEPSLATE_JADE_ORE = registerBlock("deepslate_jade_ore",new ExperienceDroppingBlock(FabricBlockSettings.copy(Blocks.DEEPSLATE_COPPER_ORE), UniformIntProvider.create(3, 6)));
+    public static final Block JADE_BLOCK = registerBlock("jade_block",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_STAIRS = registerBlock("jade_stairs",new StairsBlock(ModBlocks.JADE_BLOCK.getDefaultState(), FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_SLAB = registerBlock("jade_slab",new SlabBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_WALL = registerBlock("jade_wall",new WallBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_BLOCK = registerBlock("frosted_jade_block",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_STAIRS = registerBlock("frosted_jade_stairs",new StairsBlock(ModBlocks.FROSTED_JADE_BLOCK.getDefaultState(), FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_SLAB = registerBlock("frosted_jade_slab",new SlabBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_WALL = registerBlock("frosted_jade_wall",new WallBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_BRICKS = registerBlock("jade_bricks",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_BRICK_STAIRS = registerBlock("jade_brick_stairs",new StairsBlock(ModBlocks.JADE_BRICKS.getDefaultState(), FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_BRICK_SLAB = registerBlock("jade_brick_slab",new SlabBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_BRICK_WALL = registerBlock("jade_brick_wall",new WallBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_BRICKS = registerBlock("frosted_jade_bricks",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_BRICK_STAIRS = registerBlock("frosted_jade_brick_stairs",new StairsBlock(ModBlocks.FROSTED_JADE_BRICKS.getDefaultState(), FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_BRICK_SLAB = registerBlock("frosted_jade_brick_slab",new SlabBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_BRICK_WALL = registerBlock("frosted_jade_brick_wall",new WallBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_TILES = registerBlock("jade_tiles",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_TILE_STAIRS = registerBlock("jade_tile_stairs",new StairsBlock(ModBlocks.JADE_TILES.getDefaultState(), FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_TILE_SLAB = registerBlock("jade_tile_slab",new SlabBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_TILE_WALL = registerBlock("jade_tile_wall",new WallBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_TILES = registerBlock("frosted_jade_tiles",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_TILE_STAIRS = registerBlock("frosted_jade_tile_stairs",new StairsBlock(ModBlocks.FROSTED_JADE_TILES.getDefaultState(), FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_TILE_SLAB = registerBlock("frosted_jade_tile_slab",new SlabBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block FROSTED_JADE_TILE_WALL = registerBlock("frosted_jade_tile_wall",new WallBlock(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block CHISELED_JADE_BLOCK = registerBlock("chiseled_jade_block",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block CHISELED_FROSTED_JADE_BLOCK = registerBlock("chiseled_frosted_jade_block",new Block(FabricBlockSettings.copy(Blocks.EMERALD_BLOCK)));
+    public static final Block JADE_DOOR = registerBlock("jade_door",new DoorBlock(FabricBlockSettings.copy(Blocks.OAK_DOOR), BlockSetType.IRON));
+    public static final Block JADE_TRAPDOOR = registerBlock("jade_trapdoor",new TrapdoorBlock(FabricBlockSettings.copy(Blocks.OAK_TRAPDOOR), BlockSetType.IRON));
+    public static final Block FROSTED_JADE_DOOR = registerBlock("frosted_jade_door",new DoorBlock(FabricBlockSettings.copy(Blocks.IRON_DOOR), BlockSetType.OAK));
+    public static final Block FROSTED_JADE_TRAPDOOR = registerBlock("frosted_jade_trapdoor",new TrapdoorBlock(FabricBlockSettings.copy(Blocks.OAK_TRAPDOOR), BlockSetType.OAK));
     //HONEY
     public static final Block HONEYCOMB_BRICKS = registerBlock("honeycomb_bricks",new Block(FabricBlockSettings.copy(Blocks.HONEYCOMB_BLOCK)));
     public static final Block HONEYCOMB_BRICK_STAIRS = registerBlock("honeycomb_brick_stairs",new StairsBlock(ModBlocks.HONEYCOMB_BRICKS.getDefaultState(), FabricBlockSettings.copy(Blocks.HONEYCOMB_BLOCK)));
@@ -179,6 +212,27 @@ public class ModBlocks {
     public static final Block FROSTED_SMOOTH_GINGERBREAD_BLOCK = registerBlock("frosted_smooth_gingerbread_block",new PillarBlock(FabricBlockSettings.copy(Blocks.STRIPPED_OAK_WOOD)));
     public static final Block GINGERBREAD_DOOR = registerBlock("gingerbread_door",new DoorBlock(FabricBlockSettings.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
     public static final Block GINGERBREAD_TRAPDOOR = registerBlock("gingerbread_trapdoor",new TrapdoorBlock(FabricBlockSettings.copy(Blocks.OAK_DOOR), BlockSetType.OAK));
+    // EDUCATION EDITION BLOCKS
+    public static final Block HARDENED_GLASS = registerBlock("hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block HARDENED_TINTED_GLASS = registerBlock("hardened_tinted_glass", new TintedGlassBlock(FabricBlockSettings.copy(Blocks.TINTED_GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block BLACK_HARDENED_GLASS = registerBlock("black_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block BLUE_HARDENED_GLASS = registerBlock("blue_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block BROWN_HARDENED_GLASS = registerBlock("brown_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block CYAN_HARDENED_GLASS = registerBlock("cyan_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block GRAY_HARDENED_GLASS = registerBlock("gray_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block GREEN_HARDENED_GLASS = registerBlock("green_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block LIGHT_BLUE_HARDENED_GLASS = registerBlock("light_blue_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block LIGHT_GRAY_HARDENED_GLASS = registerBlock("light_gray_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block LIME_HARDENED_GLASS = registerBlock("lime_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block MAGENTA_HARDENED_GLASS = registerBlock("magenta_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block ORANGE_HARDENED_GLASS = registerBlock("orange_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block PINK_HARDENED_GLASS = registerBlock("pink_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block PURPLE_HARDENED_GLASS = registerBlock("purple_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block RED_HARDENED_GLASS = registerBlock("red_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block WHITE_HARDENED_GLASS = registerBlock("white_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+    public static final Block YELLOW_HARDENED_GLASS = registerBlock("yellow_hardened_glass", new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).hardness(10).strength(50.0F, 1200.0F).nonOpaque()));
+
+
     //ADDITIONAL VANILLA BLOCKS
     public static final Block WROUGHT_IRON_BLOCK = registerBlock("wrought_iron_block",new Block(FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
     public static final Block WROUGHT_IRON_STAIRS = registerBlock("wrought_iron_stairs",new StairsBlock(ModBlocks.WROUGHT_IRON_BLOCK.getDefaultState(), FabricBlockSettings.copy(Blocks.IRON_BLOCK)));
@@ -193,8 +247,8 @@ public class ModBlocks {
     public static final Block SMOOTH_WROUGHT_IRON_BUTTON = registerBlock("smooth_wrought_iron_button",new ButtonBlock(FabricBlockSettings.copy(Blocks.STONE_BUTTON), BlockSetType.STONE, 10, false));
     public static final Block SMOOTH_WROUGHT_IRON_PRESSURE_PLATE = registerBlock("smooth_wrought_iron_pressure_plate",new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.copy(Blocks.STONE), BlockSetType.STONE));
     public static final Block WROUGHT_IRON_BARS = registerBlock("wrought_iron_bars",new PaneBlock(FabricBlockSettings.create().requiresTool().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL).copy(Blocks.IRON_BARS).nonOpaque()));
-    public static final Block WROUGHT_IRON_DOOR = registerBlock("wrought_iron_door",new DoorBlock(FabricBlockSettings.copy(Blocks.IRON_DOOR), BlockSetType.IRON));
-    public static final Block WROUGHT_IRON_TRAPDOOR = registerBlock("wrought_iron_trapdoor",new TrapdoorBlock(FabricBlockSettings.copy(Blocks.IRON_TRAPDOOR), BlockSetType.IRON));
+    public static final Block WROUGHT_IRON_DOOR = registerBlock("wrought_iron_door",new DoorBlock(FabricBlockSettings.copy(Blocks.OAK_DOOR), BlockSetType.IRON));
+    public static final Block WROUGHT_IRON_TRAPDOOR = registerBlock("wrought_iron_trapdoor",new TrapdoorBlock(FabricBlockSettings.copy(Blocks.OAK_TRAPDOOR), BlockSetType.IRON));
     //STONES
     public static final Block POLISHED_CALCITE = registerBlock("polished_calcite",new Block(FabricBlockSettings.copy(Blocks.CALCITE)));
     public static final Block POLISHED_CALCITE_STAIRS = registerBlock("polished_calcite_stairs",new StairsBlock(ModBlocks.POLISHED_CALCITE.getDefaultState(), FabricBlockSettings.copy(Blocks.CALCITE)));
@@ -239,18 +293,21 @@ public class ModBlocks {
     public static final Block RED_LIGHTS = registerBlock("red_lights",new LadderBlock(FabricBlockSettings.copy(Blocks.LADDER).luminance(state -> 7)));
     public static final Block WHITE_LIGHTS = registerBlock("white_lights",new LadderBlock(FabricBlockSettings.copy(Blocks.LADDER).luminance(state -> 7)));
     public static final Block YELLOW_LIGHTS = registerBlock("yellow_lights",new LadderBlock(FabricBlockSettings.copy(Blocks.LADDER).luminance(state -> 7)));
-
-
-
-
-    public static void init() {
-        for (Wood wood : Wood.values()) {
-            for (DyeColor color :DyeColor.values()) {
-                String name = color.getName() + "_" + wood.name().toLowerCase(Locale.ROOT);
-                BlockSet set = new BlockSet(wood, color);
-            }
-        }
-    }
+    //CLOTH
+    public static final Block ROSE_CLOTH = registerBlock("rose_cloth",new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)));
+    public static final Block ULTRAMARINE_CLOTH = registerBlock("ultramarine_cloth",new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)));
+    public static final Block CHARTREUSE_CLOTH = registerBlock("chartreuse_cloth",new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)));
+    public static final Block SPRING_GREEN_CLOTH = registerBlock("spring_green_cloth",new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)));
+    public static final Block VIOLET_CLOTH = registerBlock("violet_cloth",new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)));
+    public static final Block CAPRI_CLOTH = registerBlock("capri_cloth",new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)));
+    public static final Block PRIMROSE_CLOTH = registerBlock("primrose_cloth",new Block(FabricBlockSettings.copy(Blocks.WHITE_WOOL)));
+    public static final Block ROSE_CARPET = registerBlock("rose_carpet", new CarpetBlock(FabricBlockSettings.copy(Blocks.WHITE_CARPET)));
+    public static final Block ULTRAMARINE_CARPET = registerBlock("ultramarine_carpet", new CarpetBlock(FabricBlockSettings.copy(Blocks.WHITE_CARPET)));
+    public static final Block CHARTREUSE_CARPET = registerBlock("chartreuse_carpet", new CarpetBlock(FabricBlockSettings.copy(Blocks.WHITE_CARPET)));
+    public static final Block SPRING_GREEN_CARPET = registerBlock("spring_green_carpet", new CarpetBlock(FabricBlockSettings.copy(Blocks.WHITE_CARPET)));
+    public static final Block VIOLET_CARPET = registerBlock("violet_carpet", new CarpetBlock(FabricBlockSettings.copy(Blocks.WHITE_CARPET)));
+    public static final Block CAPRI_CARPET = registerBlock("capri_carpet", new CarpetBlock(FabricBlockSettings.copy(Blocks.WHITE_CARPET)));
+    public static final Block PRIMROSE_CARPET = registerBlock("primrose_carpet", new CarpetBlock(FabricBlockSettings.copy(Blocks.WHITE_CARPET)));
 
 
     private static Block registerBlock(String name, Block block) {

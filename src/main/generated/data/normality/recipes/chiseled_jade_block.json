@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "J": {
+      "item": "normality:jade_emblem"
+    },
+    "S": {
+      "item": "normality:jade_block"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SJS",
+    " S "
+  ],
+  "result": {
+    "count": 4,
+    "item": "normality:chiseled_jade_block"
+  },
+  "show_notification": true
+}

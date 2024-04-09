@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "dairy",
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
+  "result": "normality:curdled_milk"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "normality:jade_swift_blade"
+    },
+    {
+      "item": "normality:jade_swift_handle"
+    }
+  ],
+  "result": {
+    "item": "normality:jade_swift"
+  }
+}

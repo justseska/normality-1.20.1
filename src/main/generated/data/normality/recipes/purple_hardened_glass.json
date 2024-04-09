@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "G": {
+      "item": "minecraft:purple_stained_glass"
+    },
+    "S": {
+      "item": "normality:condensed_amethyst"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SGS",
+    "SSS"
+  ],
+  "result": {
+    "item": "normality:purple_hardened_glass"
+  },
+  "show_notification": true
+}

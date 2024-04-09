@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "item": "normality:enoki_planks"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "SCS"
+  ],
+  "result": {
+    "count": 3,
+    "item": "normality:enoki_fence"
+  },
+  "show_notification": true
+}

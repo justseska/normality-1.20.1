@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ultramarine_carpet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_ultramarine_cloth": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "normality:ultramarine_cloth"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_ultramarine_cloth",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ultramarine_carpet"
+    ]
+  },
+  "sends_telemetry_event": false
+}

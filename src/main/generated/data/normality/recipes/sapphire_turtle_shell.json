@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "normality:sapphire"
+    },
+    "T": {
+      "item": "minecraft:turtle_helmet"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "STS"
+  ],
+  "result": {
+    "item": "normality:sapphire_turtle_shell"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,23 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "trims/items/leggings_trim",
+        "trims/items/chestplate_trim",
+        "trims/items/helmet_trim",
+        "trims/items/boots_trim"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "ruby": "normality:trims/color_palettes/ruby",
+        "ruby_darker": "normality:trims/color_palettes/ruby_darker",
+        "sapphire": "normality:trims/color_palettes/sapphire",
+        "sapphire_darker": "normality:trims/color_palettes/sapphire_darker",
+        "crystallized_honey": "normality:trims/color_palettes/crystallized_honey",
+        "jade": "normality:trims/color_palettes/jade",
+        "jade_darker": "normality:trims/color_palettes/jade_darker"
+      }
+    }
+  ]
+}
